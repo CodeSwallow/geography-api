@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "geography-api"
+version = "0.1.0"
+description = ""
+authors = ["Isai Ramirez <86127102+CodeSwallow@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.3"
+djangorestframework = "^3.13.1"
+djangorestframework-simplejwt = "^5.1.0"
+django-cors-headers = "^3.11.0"
+python-decouple = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
